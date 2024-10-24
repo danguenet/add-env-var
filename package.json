@@ -6,12 +6,17 @@
     "bin": {
         "add-env-var": "bin/add-env-var.js"
     },
-    "keywords": ["cli", "env", "dotenv", "environment variables"],
+    "keywords": [
+        "cli",
+        "env",
+        "dotenv",
+        "environment variables"
+    ],
     "author": "Dan Guenet",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/danguenet/add-env-var.git"
+        "url": "git+https://github.com/danguenet/add-env-var.git"
     },
     "dependencies": {
         "base64url": "^3.0.1",

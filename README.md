@@ -81,13 +81,13 @@ This will add `RANDOM_SECRET` to the `.env.local` file.
 
 ### Using a Different Encoding
 
-Specify the encoding for the generated secret using the -e or --encoding option:
+Specify the encoding for the generated variable instead of the default `hex`:
 
 ```bash
-npx add-env-var RANDOM_SECRET -e base64url
+npx add-env-var RANDOM_VAR -e base64url
 ```
 
-This will generate a URL-safe Base64-encoded secret for RANDOM_SECRET.
+This will generate a URL-safe Base64-encoded secret for `RANDOM_VAR`.
 
 ## Options
 
@@ -129,7 +129,7 @@ Generates a 64-byte secret for `JWT_SECRET` and adds it to `.env.local`.
 npx add-env-var API_TOKEN -e base64
 ```
 
-Adds API_TOKEN with a Base64-encoded secret to .env.
+Adds `API_TOKEN` with a Base64-encoded secret to `.env`.
 
 ### Example 5: Overwrite an Existing Variable
 

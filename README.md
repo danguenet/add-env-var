@@ -25,6 +25,7 @@ Or install it globally:
 
 ```bash
 npm install -g add-env-var
+add-env-var --help
 ```
 
 ## Usage
